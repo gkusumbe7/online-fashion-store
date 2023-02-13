@@ -1,0 +1,78 @@
+.main-body{
+    background-color: rgb(228, 152, 152);
+}
+
+.main-header{
+    background-color: black;
+    height:40px;
+}
+.accesories-logo{
+    background-color: rgb(231, 127, 245);
+    height:200px; 
+    /* background-image: url("https://hips.hearstapps.com/hbz.h-cdn.co/assets/16/49/2560x1280/landscape-1481049241-hbz-think-pink-00-index.jpg?resize=480:*"); */
+    background-size: 1000px;
+}
+
+.acc-logo-img{
+    margin-left: 350px;
+    height:200px;
+}
+
+.search-box{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    border-color: aqua;
+    border-style: double;
+    border-radius: 50px;
+    position:absolute;
+    height: 50px;  
+    width: 300px;  
+    margin-left:500px;
+    margin-top: 50px;
+}
+
+.categories-container{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content:space-evenly;
+}
+
+.categories-name{
+    font-size: large;
+    height: 200px;
+    width: 300px;
+    color: aqua;
+    background-color: rgb(21, 77, 58);
+    
+}
+
+.male{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: url("../img/boyfashion1.jpg");
+}
+
+.male:hover{
+    background-image: url("../img/imagesboy2.jpg");
+}
+  
+.female{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: url("../img/girlacc1.jpg");
+}   
+
+.female:hover{
+    background-image: url("../img/girlacc2.jpg");
+}
+
+.kind{
+    border-radius: 20px;
+    margin-top: 20px;
+    background-image: url("../img/kinds1.jpg");
+    width: 300px;
+}
+.kind:hover{
+    background-image: url("../img/kinds2.jpg");
+}
